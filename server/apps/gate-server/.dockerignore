@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vs
+.vscode
+.cache
+build
+bin
+out
+*.log
+*.pid
+.env
+config.ini

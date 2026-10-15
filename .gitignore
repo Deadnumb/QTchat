@@ -52,3 +52,25 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# ---- 通用：构建产物 ----
+build/
+out/
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+.ninja_deps
+.ninja_log
+
+# ---- 通用：本地环境与密钥 ----
+.env
+.env.*
+!.env.example
+**/config.local.*
+**/*.secret
+
+# ---- 通用：运行时产物 ----
+*.log
+*.pid
+*.tmp

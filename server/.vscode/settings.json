@@ -1,0 +1,14 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}",
+  "cmake.buildDirectory": "${workspaceFolder}/out/build/gate-server-debug",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/out/build/gate-server-debug/compile_commands.json",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/out/build/gate-server-debug"
+  ],
+  "files.exclude": {
+    "**/out": true,
+    "**/build": true,
+    "**/bin": true,
+    "**/.git": true
+  }
+}

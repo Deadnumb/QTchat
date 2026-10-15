@@ -1,0 +1,36 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+**/config.json
+**/config.local.*
+**/*.secret
+
+# CMake and build output
+out/
+build/
+**/build/
+**/bin/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# Runtime output
+*.log
+*.pid
+*.tmp
+
+# IDE state
+.vs/
+.vscode/*
+!.vscode/settings.json
+.cache/
+.idea/
+
+# Go output
+/out/bin/verify-server
+/apps/verify-server/verify-server
+**/*.test
